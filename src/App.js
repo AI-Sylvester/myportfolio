@@ -25,20 +25,20 @@ function App() {
 
   const experienceList = [
     { 
-      role: "Senior Web Developer", 
-      company: "Tech Solutions Inc.", 
-      duration: "2022 - Present",
+      role: "Junior Web Developer", 
+      company: "Sivasakthi Software Services Private Limited", 
+      duration: "2016 - Present",
       description: "Leading frontend development team, implementing modern web technologies and best practices"
     },
     { 
       role: "Frontend Developer", 
       company: "Digital Innovations", 
-      duration: "2020 - 2022",
+      duration: "2015 - 2016",
       description: "Developed responsive web applications using React and modern JavaScript"
     }
   ];
 
-  const contactEmail = "sylvester@example.com";
+  const contactEmail = "silu.sylver@gmail.com";
   const socialLinks = [
     { name: "GitHub", url: "https://github.com/yourusername", icon: "fab fa-github" },
     { name: "LinkedIn", url: "https://linkedin.com/in/yourusername", icon: "fab fa-linkedin" },
@@ -241,14 +241,14 @@ function App() {
                   <i className="fas fa-map-marker-alt"></i>
                   <div>
                     <h4>Address</h4>
-                    <p>123 Developer Street, Tech City, 12345</p>
+                    <p>18, Ashok Residency C Block, Othakalmandpam, Coimbatore</p>
                   </div>
                 </div>
                 <div className="contact-item">
                   <i className="fas fa-phone"></i>
                   <div>
                     <h4>Phone</h4>
-                    <p>+1 (234) 567-8900</p>
+                    <p>+91 9894305194</p>
                   </div>
                 </div>
                 <div className="contact-item">
