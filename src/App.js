@@ -11,7 +11,7 @@ function App() {
   const educationList = [
     { degree: "Master's Degree", field: "Computer Application", school: "Govt Arts College, Coimbatore", duration: "2011 - 2014" },
     { degree: "Bachelor's Degree", field: "Computer Application", school: "Govt Arts College, Coimbatore", duration: "2008 - 2011" },
-    { degree: "High School", field: "Science & Mathematics", school: "St. Mary's Higher Secondary School", duration: "2006 - 2008" }
+    { degree: "High School", field: "Science & Mathematics", school: "St. Michaels Higher Secondary School", duration: "2006 - 2008" }
   ];
 
   const skillsList = [
