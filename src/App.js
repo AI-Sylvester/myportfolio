@@ -45,7 +45,24 @@ function App() {
     { name: "Twitter", url: "https://twitter.com/yourusername", icon: "fab fa-twitter" },
     { name: "Instagram", url: "https://instagram.com/yourusername", icon: "fab fa-instagram" }
   ];
-
+  const projectsList = [
+    {
+      title: "Portfolio Website",
+      description: "A personal portfolio built with React to showcase skills and projects.",
+      url: "https://aisylvester.netlify.app/"
+    },
+    {
+      title: "E-Commerce Store",
+      description: "A fully functional online store with cart and checkout features.",
+      url: "https://riazshopy.netlify.app/"
+    },
+    {
+      title: "Uploaded Soon",
+      description: "New ideas Loading here",
+      url: "https://aisylvester.netlify.app/"
+    }
+  ];
+  
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -146,7 +163,7 @@ function App() {
               </p>
               <div className="cta-buttons">
                 <a href="#contact" className="cta-primary">Get in Touch</a>
-                <a href="#portfolio" className="cta-secondary">View My Work</a>
+                <a href="#projects" className="cta-secondary">View My Work</a>
               </div>
             </div>
             <div className="home-visual">
@@ -210,6 +227,36 @@ function App() {
           </div>
         </div>
       </section>
+      <section id="projects" className="section">
+  <div className="container">
+    <h2 className="section-title">Projects</h2>
+    <div className="projects-grid">
+      {projectsList.map((project, index) => (
+        <div key={index} className="project-card">
+          <h3>{project.title}</h3>
+          <p className="project-description">{project.description}</p>
+          <div className="project-preview">
+            <iframe
+              src={project.url}
+              title={project.title}
+              frameBorder="0"
+              sandbox="allow-scripts allow-same-origin"
+              loading="lazy"
+            ></iframe>
+          </div>
+          <a
+            className="project-expand-btn"
+            href={project.url}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Open in New Tab
+          </a>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
 
       <section id="experience" className="section">
         <div className="container">
