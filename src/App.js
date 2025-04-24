@@ -27,23 +27,23 @@ function App() {
     { 
       role: "Junior Web Developer", 
       company: "Sivasakthi Software Services Private Limited", 
-      duration: "2016 - Present",
+      duration: "2019 - Present",
       description: "Leading frontend development team, implementing modern web technologies and best practices"
     },
     { 
       role: "Frontend Developer", 
-      company: "Digital Innovations", 
-      duration: "2015 - 2016",
+      company: "Sivasakthi Software Technologies", 
+      duration: "2016 - 2019",
       description: "Developed responsive web applications using React and modern JavaScript"
     }
   ];
 
   const contactEmail = "silu.sylver@gmail.com";
   const socialLinks = [
-    { name: "GitHub", url: "https://github.com/yourusername", icon: "fab fa-github" },
-    { name: "LinkedIn", url: "https://linkedin.com/in/yourusername", icon: "fab fa-linkedin" },
-    { name: "Twitter", url: "https://twitter.com/yourusername", icon: "fab fa-twitter" },
-    { name: "Instagram", url: "https://instagram.com/yourusername", icon: "fab fa-instagram" }
+    { name: "GitHub", url: "https://github.com/AI-Sylvester", icon: "fab fa-github" },
+    { name: "LinkedIn", url: "https://linkedin.com/in/infant-sylvester-7446a7a4", icon: "fab fa-linkedin" },
+    { name: "Twitter", url: "https://x.com/silu.sylver", icon: "fab fa-twitter" },
+    { name: "Instagram", url: "https://instagram.com/infant_sylvester", icon: "fab fa-instagram" }
   ];
   const projectsList = [
     {
