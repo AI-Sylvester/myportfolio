@@ -57,9 +57,9 @@ function App() {
       url: "https://riazshopy.netlify.app/"
     },
     {
-      title: "Uploaded Soon",
-      description: "New ideas Loading here",
-      url: "https://aisylvester.netlify.app/"
+      title: "ListoSylvester",
+      description: "A Simple Customized Musical App-Listen to your favorite Songs",
+      url: "https://listosylvester.netlify.app/"
     }
   ];
   
