@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import righthome from './righthome.png';
 import abouts from './about.png';
-
+import logo from './ais.png';
 
 function App() {
   // Data for sections
@@ -138,7 +138,7 @@ function App() {
     <div className="App">
       <header className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
         <div className="nav-content">
-          <h1 className="logo">AIS</h1>
+        <img src={logo} alt="AIS Logo" className="logo" />
           <nav>
             <ul className="nav-links">
               <li><a href="#home" className={activeSection === 'home' ? 'active' : ''}>Home</a></li>

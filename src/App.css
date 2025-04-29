@@ -996,3 +996,7 @@ body {
 .project-expand-btn:hover {
   background-color: #004a99;
 }
+.logo {
+  height: 40px;
+  width: auto;
+}
