@@ -59,7 +59,7 @@ function App() {
     {
       title: "ListoSylvester",
       description: "A Simple Customized Musical App-Listen to your favorite Songs",
-      url: "https://listosylvester.netlify.app/"
+      url: "https://listova.netlify.app/"
     }
   ];
   
