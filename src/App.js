@@ -47,9 +47,9 @@ function App() {
   ];
   const projectsList = [
     {
-      title: "Portfolio Website",
-      description: "A personal portfolio built with React to showcase skills and projects.",
-      url: "https://aisylvester.netlify.app/"
+      title: "CafeRia",
+      description: "A Simple and functional Pos for a CafeShop.",
+      url: "https://caferia.netlify.app/"
     },
     {
       title: "E-Commerce Store",
