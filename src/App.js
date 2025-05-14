@@ -49,7 +49,7 @@ function App() {
     {
       title: "CafeRia",
       description: "A Simple and functional Pos for a CafeShop.",
-      url: "https://caferia.netlify.app/"
+      url: "https://cafeshoppos.netlify.app/"
     },
     {
       title: "E-Commerce Store",
