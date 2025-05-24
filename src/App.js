@@ -48,8 +48,8 @@ function App() {
   const projectsList = [
     {
       title: "CafeRia",
-      description: "A Simple and functional Pos for a CafeShop.",
-      url: "https://cafeshoppos.netlify.app/"
+      description: "A Simple and functional Pos for a CafeShop.(DesktopMode",
+      url: "https://cafeposbill.netlify.app/"
     },
     {
       title: "E-Commerce Store",
@@ -235,15 +235,15 @@ function App() {
         <div key={index} className="project-card">
           <h3>{project.title}</h3>
           <p className="project-description">{project.description}</p>
-          <div className="project-preview">
-            <iframe
-              src={project.url}
-              title={project.title}
-              frameBorder="0"
-              sandbox="allow-scripts allow-same-origin"
-              loading="lazy"
-            ></iframe>
-          </div>
+       <div className={`project-preview ${project.title === "CafeRia" ? "cafepos-frame" : ""}`}>
+  <iframe
+    src={project.url}
+    title={project.title}
+    frameBorder="0"
+    sandbox="allow-scripts allow-same-origin"
+    loading="lazy"
+  ></iframe>
+</div>
           <a
             className="project-expand-btn"
             href={project.url}
